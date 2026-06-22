@@ -2,3 +2,4 @@
 ## css tailwind 
 ## react
 ## Typescript 
+## next js 
