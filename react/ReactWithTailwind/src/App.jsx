@@ -11,8 +11,4 @@ import './App.css'
     </h1>
   );
 }
-
-
-  
-
 export default App
