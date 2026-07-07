@@ -1,14 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import Card from './components/card'
 
-    function App() {
+function App() {
+
+
   return (
-    <h1 className="text-4xl font-bold text-white bg-green-500 ">
-      Hello Tailwind
-    </h1>
+    <>
+      <h1 className="text-4xl font-bold text-white bg-green-500 ">
+        Hello Tailwind
+      </h1>
+      <div className="flex flex-wrap gap-4 p-4">
+        <Card name="John" />
+        <Card name="Ava" />
+        <Card name="Mia" />
+        <Card name="Noah" />
+        <Card name="Liam" />
+      </div>
+    </>
   );
 }
-export default App
+export default App; 
